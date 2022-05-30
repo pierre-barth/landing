@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Roboto+Condensed&display=swap") ;
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("images/avatar.jpg");
+
+@import url("components/banner.css");
+
+@import url("images/baneer.jpg");
+
+.banner {
+  background-image:
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    url('images/baneer.jpg');
+}
+
+
+
+body {
+	font-family: 'Roboto+Condensed';
+	font-size: 18px;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Questrial';
+	font-weight: bold;
+}
+
+
+.btn-blue{
+	width: 60px;
+	height: 20px;
+	background-color: cadetblue;
+	padding: 15px 15px 15px 15px;
+}
+
+a {
+	color: white;
+}
